@@ -270,7 +270,7 @@ font-size:14px;
 @media screen and (max-width:1000px)  {
 
   body, html{
-    padding-left: 0%;
+    padding-left: 0px;padding-bottom: 50px;
   }
  
   .jobtitle{
@@ -357,8 +357,8 @@ font-size:14px;
   }
 
   .fullContainer{
-    width: 255px;
-    margin-left: 35px;
+    width: 335px;
+    margin-left: 20px;
   }
 
 }
