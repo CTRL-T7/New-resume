@@ -22,10 +22,13 @@ body, html{
 h3{
   color: #F5F5F5;
   font-family: 'Nunito', sans-serif;
+  font-size:16px;
+  font-weight:600;
+  
 }
 
 h2{
-  font-size: 25px !important;
+  font-size: 25px;
   font-family: 'Nunito', sans-serif;
   color: #57FEFF !important;
 }
@@ -36,6 +39,18 @@ h2{
   padding-left: 100px;
 
 
+}
+
+.jobtitle{
+  font-size:15px;
+  font-weight:500;
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+  padding:10px;
+  border-radius: 4px;
+  color: #000;
+  margin-right:6px;
+  margin-bottom: 20px;
 }
 
 .fullContainer{
@@ -203,10 +218,14 @@ display: block;
 .sections  a, .sections  p{
   display: inline-flex;
   margin: 10px;
-  text-align: center;
+  text-align: left;
   align-items: center;
   justify-items: center;
   font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom:20px;
+  
 } 
 
   
@@ -232,6 +251,24 @@ text-align: left;
 margin-bottom: 10px;
 padding-left: 40px;
 font-family: 'Nunito', sans-serif;
+font-size:14px;
+}
+
+.sectionC{
+  color: #fff;
+  text-align:left;
+  padding-left:30px;
+}
+
+.sectiontitle{
+  margin-bottom:30px;
+}
+
+
+.sectionC p{
+  font-family: 'Nunito', sans-serif;
+  font-size:14px;
+  margin-bottom:10px;  
 }
 
 
@@ -272,10 +309,15 @@ font-family: 'Nunito', sans-serif;
     .my-header h2{
       color: #F5F5F5;
       margin-bottom: 10px;
-      font-size: 7px;
+      
       font-weight: bolder;
+      
     }
 
+
+    h2{
+      font-size:16px;
+    }
     
 
   .left-con{
